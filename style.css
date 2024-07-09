@@ -7,6 +7,10 @@
     font-family: "Azeret Mono", monospace;
 }
 
+main{
+
+}
+
 .banner{
     background-image: url("assets/Hero-bg.png");
     background-repeat: no-repeat;
@@ -45,13 +49,20 @@
 }
 
 /* Why web dev section  */
+.why-web-section{
+    padding: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .why-web-dev{
     width: 1140px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     display: flex;
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 .why-web-title{
@@ -60,6 +71,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 24px;
 }
 
 .why-web-description{
@@ -68,4 +80,37 @@ font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 48px;
+}
+
+.why-web-content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+.why-web-content div{
+    padding: 30px;
+    background-color: white;
+}
+.why-web-content h2{
+    font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 16px;
+}
+.why-web-content p{
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 32px;
+}
+
+.learn-btn{
+    width: 150px;
+height: 48px;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+background-color: white;
 }
