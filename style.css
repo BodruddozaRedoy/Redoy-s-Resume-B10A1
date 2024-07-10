@@ -12,7 +12,10 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
+p{
+  font-size: 20px !important;
+  color: #757575 !important;
+}
 
 main {
     width: 1500px;
@@ -77,7 +80,7 @@ main {
 }
 
 .why-web-title {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 37px;
   letter-spacing: 0%;
@@ -116,7 +119,7 @@ height: 336px;
     width: 250px;
 }
 .why-web-content h2 {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   margin-bottom: 16px;
@@ -162,7 +165,7 @@ height: 336px;
 }
 
 .inspiration-content h1 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 37px;
 }
@@ -203,7 +206,7 @@ height: 336px;
 }
 
 .current-target-header h1 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bolder;
   line-height: 37px;
 }
@@ -297,7 +300,7 @@ height: 320px;
 }
 
 .support-section h1{
-    font-size: 32px;
+    font-size: 40px;
 font-weight: 700;
 line-height: 36px;
 margin-bottom: 20px;
@@ -309,7 +312,7 @@ color: rgb(255, 255, 255);
 font-weight: 400;
 line-height: 26px;
 opacity: 0.7;
-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255) !important;
 
 }
 
